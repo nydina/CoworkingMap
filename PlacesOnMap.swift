@@ -12,14 +12,13 @@ struct PlacesOnMap: View {
     var body: some View {
         NavigationView {
             Map(coordinateRegion: $mapRegion, annotationItems: places){ place in
-            
+                
                 MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: place.lat, longitude: place.lon)) {
                     NavigationLink(destination: Text(place.name)) {
                         Image(systemName: "mappin.and.ellipse")
                             .foregroundColor(.red)
-                           
+                        
                     }
-                    
                 }
             }
             .navigationTitle("Coworking Places")

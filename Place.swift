@@ -13,7 +13,7 @@ struct Place: Identifiable, Decodable {
     let lon: Double
     let address: String
     let type: PlaceTypeEnum
-    let url: URL
+    let url: String
     var wifi: Bool
     
     enum PlaceTypeEnum: String, Decodable {

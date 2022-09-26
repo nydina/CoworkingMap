@@ -9,7 +9,6 @@ import SwiftUI
 
 struct PlacesList: View {
     var body: some View {
-        NavigationView {
             List(places) { place in
                 NavigationLink {
                     PlaceDetails(place: place)
@@ -19,7 +18,7 @@ struct PlacesList: View {
 
             }
         }
-    }
+    
 }
 
 struct PlacesList_Previews: PreviewProvider {

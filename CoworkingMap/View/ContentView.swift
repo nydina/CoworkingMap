@@ -23,7 +23,9 @@ struct ContentView: View {
                     PlacesList()
                 }
             }
+            .navigationTitle("Coworking Places")
         }
+        
     }
 }
 

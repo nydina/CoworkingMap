@@ -15,6 +15,7 @@
 		BB7EAA6328E195590081C1ED /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7EAA6228E195590081C1ED /* Place.swift */; };
 		BB7EAA6528E19F550081C1ED /* PlacesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7EAA6428E19F550081C1ED /* PlacesList.swift */; };
 		BB7EAA6728E1A4FE0081C1ED /* PlaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7EAA6628E1A4FE0081C1ED /* PlaceDetails.swift */; };
+		BB7EAA6928E1A8EA0081C1ED /* PlacesOnMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7EAA6828E1A8EA0081C1ED /* PlacesOnMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		BB7EAA6228E195590081C1ED /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		BB7EAA6428E19F550081C1ED /* PlacesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesList.swift; sourceTree = "<group>"; };
 		BB7EAA6628E1A4FE0081C1ED /* PlaceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetails.swift; sourceTree = "<group>"; };
+		BB7EAA6828E1A8EA0081C1ED /* PlacesOnMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOnMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 				BB7EAA6028E193E50081C1ED /* places.json */,
 				BB7EAA6228E195590081C1ED /* Place.swift */,
 				BB7EAA6428E19F550081C1ED /* PlacesList.swift */,
+				BB7EAA6828E1A8EA0081C1ED /* PlacesOnMap.swift */,
 				BB7EAA6628E1A4FE0081C1ED /* PlaceDetails.swift */,
 				BB7EAA5128E191650081C1ED /* CoworkingMap */,
 				BB7EAA5028E191650081C1ED /* Products */,
@@ -153,6 +156,7 @@
 				BB7EAA6728E1A4FE0081C1ED /* PlaceDetails.swift in Sources */,
 				BB7EAA6328E195590081C1ED /* Place.swift in Sources */,
 				BB7EAA5528E191650081C1ED /* ContentView.swift in Sources */,
+				BB7EAA6928E1A8EA0081C1ED /* PlacesOnMap.swift in Sources */,
 				BB7EAA6528E19F550081C1ED /* PlacesList.swift in Sources */,
 				BB7EAA5328E191650081C1ED /* CoworkingMapApp.swift in Sources */,
 			);

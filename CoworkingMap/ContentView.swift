@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var showView = 0
+    @State private var selectDisplay = 0
     var body: some View {
         NavigationView {
             VStack {
-                        Picker("Where do I found a coworking place?", selection: $showView) {
+                Picker("", selection: $selectDisplay) {
                             Text("Carte").tag(0)
                             Text("Liste").tag(1)
                         }
                         .pickerStyle(.segmented)
-                if showView == 0 {
+                if selectDisplay == 0 {
                     PlacesOnMap()
                 } else {
                     PlacesList()

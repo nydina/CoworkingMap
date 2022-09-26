@@ -40,6 +40,7 @@ return try decoder.decode(T.self, from: data)
 fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
 }
 }
+
 var places: [Place] = load("places.json")
 
 

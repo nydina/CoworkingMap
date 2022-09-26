@@ -21,7 +21,6 @@ struct PlacesOnMap: View {
                     }
                 }
             }
-            .navigationTitle("Coworking Places")
         }
     }
 }

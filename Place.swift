@@ -15,6 +15,7 @@ struct Place: Identifiable, Decodable {
     let type: PlaceTypeEnum
     let url: String
     var wifi: Bool
+    let thumbnail: String
     
     enum PlaceTypeEnum: String, Decodable {
         case coffee, coworking, coffeeCoworking = "coffee / coworking"

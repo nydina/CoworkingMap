@@ -11,7 +11,7 @@ struct PlaceDetails: View {
     let place: Place
     var body: some View {
         ScrollView {
-            Image("caféCraft")
+            Image(place.thumbnail)
                 .resizable()
                 .scaledToFill()
                 .frame(height: 400)

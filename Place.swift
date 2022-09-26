@@ -4,7 +4,7 @@
 //
 //  Created by Dina Andrianarijaona on 26/09/2022.
 //
-
+import MapKit
 import Foundation
 struct Place: Identifiable, Decodable {
     let id: Int
@@ -42,9 +42,5 @@ fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
 }
 
 var places: [Place] = load("places.json")
-
-
-
-
 
 
